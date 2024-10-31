@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="mainJantar.js" defer></script>
+    <link rel="stylesheet" href="styleJantar.css">
+    <title>Jantar</title>
+</head>
+<body>
+      <section class="Escolha">
+        <h3>Opções de jantar:</h3>
+        <div class="Jantar">
+          <div class="produto">
+            <p>Cuzcuz com carne do sol</p>
+            <img src="IMG/cuscuz-recheado.jpg" alt="">
+            <br>
+            <button onclick="decrementar('produto1')">-</button>
+            <span id="produto1" class="contador">0</span>
+            <button onclick="incrementar('produto1')">+</button>
+          </div>
+          <div class="produto">
+            <p>Sopa de feijão</p>
+            <img src="IMG/th.jfif" alt="">
+            <button onclick="decrementar('produto2')">-</button>
+            <span id="produto2" class="contador">0</span>
+            <button onclick="incrementar('produto2')">+</button>
+          </div>
+          <div class="produto">
+            <p>Caldo verde</p>
+            <img src="IMG/images.jpg" alt="">
+            <button onclick="decrementar('produto3')">-</button>
+            <span id="produto3" class="contador">0</span>
+            <button onclick="incrementar('produto3')">+</button>
+          </div>
+          <div class="produto">
+            <p>hamburguer</p>
+            <img src="IMG/th (1).jfif" alt="">
+            <button onclick="decrementar('produto4')">-</button>
+            <span id="produto4" class="contador">0</span>
+            <button onclick="incrementar('produto4')">+</button>
+          </div>
+          <div class="produto">
+            <p>tapioca frango com catupiry</p>
+            <img src="IMG/frango-tapioca-com-catupiry_314084-98.avif" alt="">
+            <button onclick="decrementar('produto5')">-</button>
+            <span id="produto5" class="contador">0</span>
+            <button onclick="incrementar('produto5')">+</button>
+          </div>
+          <div class="produto">
+            <p>Pizza calabresa</p>
+            <img src="IMG/th (2).jfif" alt="">
+            <button onclick="decrementar('produto5')">-</button>
+            <span id="produto5" class="contador">0</span>
+            <button onclick="incrementar('produto5')">+</button>
+          </div>
+        </div>
+        </section>
+        <button onclick="fecharPedido()">Fechar Pedido</button>
+        <p id="total">Total: R$ 0,00</p>
+
+</body>
+</html>
+    

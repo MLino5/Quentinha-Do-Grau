@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="mainSucos.js" defer></script>
+    <link rel="stylesheet" href="styleSucos.css">
+    <title>Sucos</title>
+</head>
+<body>
+      <section class="Escolha">
+        <h3>Opções de jantar:</h3>
+        <div class="Jantar">
+          <div class="produto">
+            <p>Suco de Goiba 1 litro</p>
+            <img src="IMG/62bc30990b2d77eab0f5b6b38df34e15_XL.jpg" alt="">
+            <button onclick="decrementar('produto1')">-</button>
+            <span id="produto1" class="contador">0</span>
+            <button onclick="incrementar('produto1')">+</button>
+          </div>
+          <div class="produto">
+            <p>Suco de manga 1 litro</p>
+            <img src="IMG/1-30-1.jpg" alt="">
+            <button onclick="decrementar('produto2')">-</button>
+            <span id="produto2" class="contador">0</span>
+            <button onclick="incrementar('produto2')">+</button>
+          </div>
+          <div class="produto">
+            <p>Suco de laranja 1 litro</p>
+            <img src="IMG/b018fd5ec8f1b90a1c8015900c2c2630_L.jpg" alt="">
+            <button onclick="decrementar('produto3')">-</button>
+            <span id="produto3" class="contador">0</span>
+            <button onclick="incrementar('produto3')">+</button>
+          </div>
+          <div class="produto">
+            <p>Suco de uva 1 litro</p>
+            <img src="IMG/suco-de-uva-1588091947594_v2_450x450.jpg" alt="">
+            <button onclick="decrementar('produto4')">-</button>
+            <span id="produto4" class="contador">0</span>
+            <button onclick="incrementar('produto4')">+</button>
+          </div>
+          <div class="produto">
+            <p>Suco de limão 1 litro</p>
+            <img src="IMG/suco-de-limão.jpg" alt="">
+            <button onclick="decrementar('produto5')">-</button>
+            <span id="produto5" class="contador">0</span>
+            <button onclick="incrementar('produto5')">+</button>
+          </div>
+          <div class="produto">
+            <p>Suco de Cajá 1 litro</p> 
+            <img src="IMG/brazilian-fruit-caja-glass-juice-wooden-table_491130-1677.avif" alt="">
+            <button onclick="decrementar('produto6')">-</button>
+            <span id="produto6" class="contador">0</span>
+            <button onclick="incrementar('produto6')">+</button>
+          </div>
+        </div>
+        </section>
+        <button onclick="fecharPedido()">Fechar Pedido</button>
+        <p id="total">Total: R$ 0,00</p>
+
+</body>
+</html>
+    

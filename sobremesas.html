@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="mainSobremesas.js" defer></script>
+    <link rel="stylesheet" href="styleSobremesas.css">
+    <title>Sobremesas</title>
+</head>
+<body>
+      <section class="Escolha">
+        <h3>Opções de jantar:</h3>
+        <div class="Jantar">
+          <div class="produto">
+            <p>Brigadeiro-Chocolate</p>
+            <img src="IMG/fotolia-51257019-subscription-monthly-m.webp" alt="Brigadeiro">
+            <button onclick="decrementar('produto1')">-</button>
+            <span id="produto1" class="contador">0</span>
+            <button onclick="incrementar('produto1')">+</button>
+          </div>
+          <div class="produto">
+            <p>Surpresa de Uva</p>
+            <img src="IMG/receitas-de-surpresa-de-uva-2.webp" alt="">
+            <button onclick="decrementar('produto2')">-</button>
+            <span id="produto2" class="contador">0</span>
+            <button onclick="incrementar('produto2')">+</button>
+          </div>
+          <div class="produto">
+            <p>Pudim</p>
+            <img src="IMG/images (2).jpg" alt="">
+            <button onclick="decrementar('produto3')">-</button>
+            <span id="produto3" class="contador">0</span>
+            <button onclick="incrementar('produto3')">+</button>
+          </div>
+          <div class="produto">
+            <p>petit gateau</p>
+            <img src="IMG/21_44_04_487_Petit_Gateau.webp" alt="">
+            <button onclick="decrementar('produto4')">-</button>
+            <span id="produto4" class="contador">0</span>
+            <button onclick="incrementar('produto4')">+</button>
+          </div>
+          <div class="produto">
+            <p>Torta de brigadeiro</p>
+            <img src="IMG/torta_de_brigadeiro_11429_paso_4_600.jpg" alt="">
+            <div class="">
+              <button onclick="decrementar('produto5')">-</button>
+            <span id="produto5" class="contador">0</span>
+            <button onclick="incrementar('produto5')">+</button>
+            </div>
+          </div>
+          <div class="produto">
+            <p>torta de limão</p> 
+            <img src="IMG/lemon-pie-sandradias.jpg" alt="">
+            <button onclick="decrementar('produto6')">-</button>
+            <span id="produto6" class="contador">0</span>
+            <button onclick="incrementar('produto6')">+</button>
+          </div>
+        </div>
+        </section>
+        <button onclick="fecharPedido()">Fechar Pedido</button>
+        <p id="total">Total: R$ 0,00</p>
+
+</body>
+</html>
+    
